@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MMo-Auth Tests">
+<listeners>
+
+<listener class-name="com.racv.util.TestNgListner"></listener>
+
+</listeners>
+
+
+  <test  name="Login test">
+    <classes>
+      <class name="com.racv.testcases.LoginPageTest"/>
+     
+    </classes>
+  </test> <!-- Test -->
+  <test  name="ERA EC purchase test">
+    <classes>
+      <class name="com.racv.testcases.ERA_EC_PurchaseTest"/>
+     
+    </classes>
+  </test> <!-- Test -->
+  
+ 
+  
+  
+  
+  
+</suite> <!-- Suite -->
+
