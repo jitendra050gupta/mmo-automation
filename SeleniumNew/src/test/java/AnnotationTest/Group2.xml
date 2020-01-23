@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Group G1 Test">
+		<groups>
+			<run>
+				<include name="G1" />
+			</run>
+		</groups>
+		<classes>
+			<class name="AnnotationTest.GroupClassA" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Group G2 Test">
+		<groups>
+			<run>
+				<include name="G2" />
+			</run>
+		</groups>
+		<classes>
+			<class name="AnnotationTest.GroupClassA" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test  name="To connect Guest Wi-Fi test">
+		<parameter name="userName" value="g8000005" />
+		<parameter name="password" value="u2g1uLL0" />
+		<classes>
+			<class name="GuestWiFiLogin.GuestWiFiLogin" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
